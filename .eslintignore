@@ -1,0 +1,7 @@
+.git
+.vscode
+node_modules
+src/__tests__
+src/reportWebVitals.js
+src/service-worker.js
+src/serviceWorkerRegistration.js
