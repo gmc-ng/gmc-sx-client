@@ -1,0 +1,62 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "jest": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "plugin:jsx-a11y/recommended",
+        "google"
+    ],
+    "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly"
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "import",
+        "babel"
+    ],
+    "rules": {
+      "no-invalid-this": 0,
+      "babel/no-invalid-this": 1,
+      "import/no-unresolved": [
+        2,
+        {
+          "commonjs": true,
+          "amd": true
+        }
+      ],
+      "import/named": 2,
+      "react/react-in-jsx-scope": "off"
+    },
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "moduleDirectory": [
+            "node_modules",
+            "src/"
+          ]
+        }
+      },
+      "react": {
+        "createClass": "createReactClass",
+        "pragma": "React",
+        "fragment": "Fragment",
+        "version": "detect"
+      },
+      "linkComponents": [
+        "Hyperlink",
+        {"name": "Link", "linkAttribute": "to"}
+      ]
+    }
+}

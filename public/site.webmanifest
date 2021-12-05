@@ -1,0 +1,66 @@
+{
+  "short_name": "GMC SX",
+  "name": "GMC Student Experience",
+  "description": "GoMyCode student experience app",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#e53a32",
+  "background_color": "#ffffff",
+  "shortcuts": [
+    {
+      "name": "Sign Up | GMC SX",
+      "short_name": "Sign Up",
+      "description": "Sign up to GMC SX",
+      "url": "/signup?source=pwa",
+      "icons": [
+        {
+          "src": "logo512.png",
+          "sizes": "512x512"
+        }
+      ]
+    },
+    {
+      "name": "Sign In | GMC SX",
+      "short_name": "Sign In",
+      "description": "Sign in to GMC SX",
+      "url": "/signin?source=pwa",
+      "icons": [
+        {
+          "src": "logo512.png",
+          "sizes": "512x512"
+        }
+      ]
+    },
+    {
+      "name": "Dashboard | GMC SX",
+      "short_name": "Dashboard",
+      "description": "GMCSX Dashboard",
+      "url": "/dashboard?source=pwa",
+      "icons": [
+        {
+          "src": "logo512.png",
+          "sizes": "512x512"
+        }
+      ]
+    }
+  ]
+}
